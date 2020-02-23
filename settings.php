@@ -1,18 +1,8 @@
 <?php
 date_default_timezone_set("Europe/Berlin");
 
-$mail_server = "";
-$mail_user = "";
-$mail_port = "";
-$mail_pw = "";
+$sender_mail = "alexander.goetz@student.uni-tuebingen.de";
+$recipient_mail = "alexander.goetz@student.uni-tuebingen.de";
+$mail_subject = "[Feedback Info 1] neuer Eintrag";
 
-$sender_friendlyname = "Feedback-Mail";
-$sender_mail = "";
-$recipient_mail = "";
-$mail_subject = "[Feedback] neuer Eintrag";
-
-$sql_server = "";
-$sql_user = "";
-$sql_db = "";
-$sql_pw = "";
 ?>
