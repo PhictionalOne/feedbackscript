@@ -1,11 +1,12 @@
 body {
+  --accent-color: #24c27f; /*#0099FF;*/
   font-family: sans-serif;
   text-align: center;
   background: #ffffff;
 }
 
 header {
-  color: #0099FF;
+  color: var(--accent-color);
   font-family: sans-serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -24,6 +25,8 @@ header {
   font-family: sans-serif;
   margin-top: 10px;
   margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #intro > span {
@@ -33,7 +36,7 @@ header {
 
 #feedbackbox textarea {
   font-family: sans-serif;
-  min-width: 500px;
+  min-width: 75%;
   width: 80%;
   min-height: 300px;
   border: solid 1px #b3b3b3;
@@ -49,20 +52,23 @@ header {
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-  background-color: #0099FF;
+  background-color: var(--accent-color);
   color: #ffffff;
-  border: 1px solid #0066CC;
+  border: 1px solid #008F66;
   line-height: 1.6em;
   padding: 8px;
 }
 
 footer {
   margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
   font-style: italic;
   color: #909090;
   font-family: sans-serif;
 }
 
 footer a, iframe { /* github button */
-  padding-top: 15px;
+  margin-top: 15px;
+  padding-top: 30px;
 }
